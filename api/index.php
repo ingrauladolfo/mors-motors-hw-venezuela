@@ -1,2 +1,2 @@
 <?php
-phpinfo();
+include_once('../backend/servicio/index.php')
