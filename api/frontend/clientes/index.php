@@ -44,8 +44,8 @@ require_once('../../backend/server/connection.php');
             <td><?php echo $mostrar['direccion']?></td>
             <td><?php echo $mostrar['hora_entrada']?></td>
             <td><?php echo $mostrar['hora_salida']?></td>
-            <td><a href="../../backend/clientes/nuevo-cliente.php" class="btn btn-primary">Agregar</a></td>
-            <td><a href="../../index.html" class="btn btn-primary">Regresar</a></td>
+            <td><a href="../../backend/clientes/insertar_nuevo_cliente.php" class="btn btn-primary">Agregar</a></td>
+            <td><a href="../../../index.html" class="btn btn-primary">Regresar</a></td>
           </tr>
           <?php
             } 
